@@ -1,0 +1,11 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content_header %}
+    <section class="hero__container container">
+        <h1>Services</h1>
+        <h2 style="align-items: center;">
+            <a href="{% url 'bases:home' %}" style="text-decoration: none; color: white;"><img src="{% static 'base/imagess/home-2502.svg' %}" height="33px"> Inicio</a>
+        </h2>
+    </section>
+{% endblock %}
+{% block content_main %}{% endblock %}

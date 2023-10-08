@@ -1,0 +1,52 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content_header %}
+    <section class="hero__container container">
+        <h1>Products</h1>
+        <div>
+            <ul style="text-align: left;">
+                <li>
+                    1. PAQUETE ECONOMICO
+                    $4,500.00 MXN (PAGO UNICO)
+                    TIEMPO 5-7 DIAS HABILES
+                </li>
+                <li>
+                    2. PAQUETE EMPRENDEDOR
+                    $6,600.00 MXN (1-2 PAGOS)
+                    TIEMPO 6-8 DIAS HABILES
+                </li>
+                <li>3. PAQUETE NEGOCIOS
+                    $8,400.00 MXN (1-2 PAGOS)
+                    TIEMPO 7-10 DIAS HABILES
+                </li>
+                <li>
+                    4. PAQUETE MICROEMPRESA
+                    $10,500.00 MXN (2 PAGOS)
+                    ESTE PAQUETE INCLUYE MEJORES CARACTERISTICAS QUE LOS PAQUETES
+                    ANTERIORES.
+                    TIEMPO 7-10 DIAS HABILES
+            
+                </li>
+                <li>
+                    5. PAQUETE PYME
+                    $12,000.00 MXN (2-3 PAGOS)
+                    HASTA 10 SECCIONES DE INFORMACION
+                    ESTE PAQUETE INCLUYE MEJORES CARACTERISTICAS QUE LOS ANTERIORES
+                    TIEMPO 8-14 DIAS HABILES
+            
+            
+                </li>
+                <li> 
+                    6. PAQUETE EMPRESARIAL
+                    $14,100.00 MXN (2-3 PAGOS)
+                    ESTE PAQUETE INCLUYE MEJORES CARACTERISTICAS QUE LOS ANTERIORES
+                    TIEMPO 8-15 DIAS HABILES
+                </li>
+            </ul>
+        </div>
+        <h2 style="align-items: center;">
+            <a href="{% url 'bases:home' %}" style="text-decoration: none; color: white;"><img src="{% static 'base/imagess/home-2502.svg' %}" height="33px"> Inicio</a>
+        </h2>
+    </section>
+{% endblock %}
+{% block content_main %}{% endblock %}
