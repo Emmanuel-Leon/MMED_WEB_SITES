@@ -28,18 +28,32 @@
     <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
 </head>
 <body>
-    <header class="hero__ab">
-        <section class="hero__container container">
-            <h1>Servicies</h1>
-            <a href="index.html" class="cta">HOME</a>
-        </section>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo nav__link--menu">
+                <a href="index.html" class="nav__links">Inicio</a>
+            </div>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="About.html" class="nav__links">About us</a>
+                </li>
+                <li class="nav__items">
+                    <a href="Products.html" class="nav__links">Products</a>
+                </li>
+                <li class="nav__items">
+                    <a href="Services.html" class="nav__links">Servicies</a>
+                </li>
+                <img src="static/base/images/close.svg" class="nav__close">
+            </ul>
+            <div class="nav__menu">
+                <img src="static/base/images/menu.svg" class="nav__img">
+            </div>
+        </nav>
     </header>
-
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
                 <h2 class="footer__title">Biomedical Engineering</h2>
-    
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
                         <a href="index.html" class="nav__links">Home</a>
@@ -56,7 +70,6 @@
                     </li>
                 </ul>
             </nav>
-    
             <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
                 <h2 class="footer__newsletter">Subscribe of the newsletter</h2>
                 <div class="footer__inputs">
